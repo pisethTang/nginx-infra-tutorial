@@ -1,25 +1,16 @@
-# Wasm tutorial 
+# Scheme tutorial 
+Scheme is small, clean and great for learning recursion, evaluation, closures, interpreters, where code and data are represented the same way.
 
-- Rust-based
 
-- frontend in rust and wasm frameworks (faster than most js frameworks)
-- svelte and solid.js 
-- browser's ability to render will be the bottleneck (not about )
-
+### Roadmap 
+1. Scheme -> Common Lisp (if I want a larger, more industrial Lisp with object systems, macros, packages, condition systems and bigger real-world application pattersn). 
 
 
 
-#### References
+### References
+1. [LIPS Scheme](https://lips.js.org/docs/scheme-intro/what-is-lisp)
 
-1. From Greg Johnson, over the last six months, frontend frameworks written in Rust and WebAssembly have begun overturning the old narrative that WASM is too slow for DOM rendering. In this video we'll take a look at several Rust/WASM frameworks to try to understand the truth about Rust/WASM performance.
+ <i>Lisp is the second-oldest programming language (after Fortran) that is still in use. Lisp is an acronym for LISt Processing. It was invented by John McCarthy in 1958 at MIT. The main feature of Lisp is its lack of syntax. The idea for Lisp language came from mathematics, to be exact Lambda Calculus defined by Alonzo Church, which was invented or discovered to prove that the halting problem is unsolvable.
+The most distinguishing things about lisp is a notion that code and data are represented using the same data structures, in lisp they are lists. This is a very important characteristic, and it's called Homoiconicity.</i>
 
-EDIT: To clarify about the memory usage: Something changed in the benchmark at some point in the way memory use is being reported, and I'm not sure why that is. If you go back to slightly earlier runs you can see better memory comparisons in which, for example, Sycamore is significantly more efficient than Solid, Yew much more memory efficient than React, etc. I'm pretty sure it was the benchmarking that changed, not the frameworks.
-
-Check results here, for example: https://krausest.github.io/js-framewo...
-
-<u>Links</u>:
-- js-framework-benchmark: https://github.com/krausest/js-framew...
-- Leptos: https://github.com/leptos-rs/leptos
-- Dioxus: https://github.com/DioxusLabs/dioxus
-- Sycamore: https://github.com/sycamore-rs/sycamore
-- Yew: https://github.com/yewstack/yew
+2. [Video tutorial](https://www.youtube.com/watch?v=gErFSiMQyKU&list=PLm8dSOaqLPHKVPwBkk9UeAB2Lokl1xMJM&index=5)
