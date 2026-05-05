@@ -1,1 +1,4 @@
-# nginx-infra-tutorial
+# React
+
+#### References
+1. [Code Stoic](https://www.youtube.com/watch?v=jufPO-r6bt0&list=PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza&index=3)
