@@ -1,0 +1,13 @@
+[package]
+name = "nginx-infra-tutorial"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"] # create a wasm file without a rust function 
+
+
+
+
+[dependencies]
+wasm-bindgen = "0.2"
