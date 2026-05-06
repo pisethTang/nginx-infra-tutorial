@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Wasm Example</title>
+</head>
+<body>
+    <script type="module">
+        import init, {greet} from "./pkg/nginx_infra_tutorial.js";
+        init().then(() => {
+            let n = 10;
+            greet(n);
+        });
+    </script>
+    
+</body>
+</html>
