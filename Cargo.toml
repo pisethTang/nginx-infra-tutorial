@@ -3,9 +3,9 @@ name = "nginx-infra-tutorial"
 version = "0.1.0"
 edition = "2024"
 
-[lib]
-crate-type = ["cdylib"] # want the compiler to create a dynamic system lirbary
+
+
+
 
 [dependencies]
-wasm-bindgen = "0.2" # most important dependency -- alows the #[wasm-bindgen] attribute to tag code that 
-# that represents the interface we want between our js and rust-generated wasm. We can import js and export rust by using this attribute. 
+rand = "0.10.1"

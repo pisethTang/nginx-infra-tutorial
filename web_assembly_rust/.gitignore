@@ -1,0 +1,8 @@
+**/target
+main.pdb
+
+node_modules/
+
+# Added by cargo
+
+/target
