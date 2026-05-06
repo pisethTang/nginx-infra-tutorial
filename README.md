@@ -1,25 +1,25 @@
-# Wasm tutorial 
+# Wasm 
 
-- Rust-based
-
-- frontend in rust and wasm frameworks (faster than most js frameworks)
-- svelte and solid.js 
-- browser's ability to render will be the bottleneck (not about )
+- a binary instruction foramat for stack-based virtual machine. It is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications. 
 
 
 
+- exiciting for the broswer 
+- for the backend, sandboxed, secure, efficient -- can replace containers (can provide the capability to run executable, tiny and secure code). E.g., blockchains, shopify (give wasm code that can be run in the backend)
 
+
+
+
+
+
+
+----
 #### References
-
-1. From Greg Johnson, over the last six months, frontend frameworks written in Rust and WebAssembly have begun overturning the old narrative that WASM is too slow for DOM rendering. In this video we'll take a look at several Rust/WASM frameworks to try to understand the truth about Rust/WASM performance.
-
-EDIT: To clarify about the memory usage: Something changed in the benchmark at some point in the way memory use is being reported, and I'm not sure why that is. If you go back to slightly earlier runs you can see better memory comparisons in which, for example, Sycamore is significantly more efficient than Solid, Yew much more memory efficient than React, etc. I'm pretty sure it was the benchmarking that changed, not the frameworks.
-
-Check results here, for example: https://krausest.github.io/js-framewo...
-
-<u>Links</u>:
-- js-framework-benchmark: https://github.com/krausest/js-framew...
-- Leptos: https://github.com/leptos-rs/leptos
-- Dioxus: https://github.com/DioxusLabs/dioxus
-- Sycamore: https://github.com/sycamore-rs/sycamore
-- Yew: https://github.com/yewstack/yew
+1. [Google I/O '19 video](https://www.youtube.com/watch?v=njt-Qzw0mVY)
+2. [Chris Hay 9-video series](https://www.youtube.com/watch?v=ojYEfRye6aE&list=PL5Dc_611BqV2NXJpSaOa1neQCwRLCGEIC)
+3. [ZX Spectrum](https://github.com/TomHarte/CLK)
+```
+- Run docker and linux containers in the browser 
+- Nintendo in the browser
+- ZX Spectrum in the browser
+```

@@ -1,0 +1,23 @@
+{
+  "name": "nginx-infra-tutorial",
+  "version": "1.0.0",
+  "description": "- a binary instruction foramat for stack-based virtual machine. It is designed as a portable target for compilation of high-level languages like C/C++/Rust, enabling deployment on the web for client and server applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pisethTang/nginx-infra-tutorial.git"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pisethTang/nginx-infra-tutorial/issues"
+  },
+  "homepage": "https://github.com/pisethTang/nginx-infra-tutorial#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
