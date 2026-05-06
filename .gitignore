@@ -1,2 +1,4 @@
 **/target
 main.pdb
+
+node_modules/

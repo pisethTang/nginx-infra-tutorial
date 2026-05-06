@@ -1,5 +1,16 @@
 # Rust tutorial 
 
+
+### Terminologies
+
+// every executable Rust program must contain a function with the name `main`
+// `rustc` := checks and compiles your program
+// `cargo` := Rust's build system and package manager 
+// `Dependencies` := the library your code needs. 
+
+
+
+
 ### References:
 1. [Caleb Curry video](https://www.youtube.com/watch?v=jAm7xrRxEUE&list=PL_c9BZzLwBRIymgB73pHXIgazpB-uszKU&index=1)
 2. [Uni Brown](https://rust-book.cs.brown.edu/ch01-03-hello-cargo.html)
@@ -13,3 +24,21 @@
         5. logging and tracing 
         6. error handling and reporting 
         7. sqlx, sea-orm, Diesel
+
+
+
+
+```
+
+use wasm_bindgen::prelude::*;
+
+#[wasm_bindgen]
+extern {
+    pub fn alert(s: &str);
+}
+
+#[wasm_bindgen]
+pub fn greet(name: &str){
+    alert(&format!("Hello {name}"));
+}
+```
